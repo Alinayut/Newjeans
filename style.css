@@ -1,0 +1,250 @@
+h1{
+    color: black;
+    transition: color 5s;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 75px;
+    text-align: center;
+}
+
+.Newjeans:hover{
+    animation: ColorChange 5s infinite linear;
+}
+
+h2{
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 75px;
+    text-align: center;
+}
+
+h3{
+    color: deeppink;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 75px;
+    text-align: center;
+}
+
+h4{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 75px;
+    text-align: center;
+}
+
+h5{
+    color:gold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 75px;
+    text-align: center;
+}
+
+h6{
+    color:darkorchid;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 75px;
+    text-align: center;
+}
+
+@keyframes ColorChange{
+    0% {color:purple}
+    20% {color:pink}
+    40% {color:yellow}
+    60% {color:greenyellow}
+    80% {color:blue}
+    100% {color:purple}
+}
+
+body{
+    background-image: url("https://i.pinimg.com/1200x/94/58/87/9458876306dd9b15e69dd06dd9b02227.jpg");
+       /* "https://i.pinimg.com/1200x/9a/c2/29/9ac22927cf0e5e19197286fb89d7c2c0.jpg");*/
+       /*https://i.pinimg.com/736x/62/84/17/628417827b74303fe3d43de9f2774ad8.jpg*/
+    background-size: 130%;
+}    
+
+table{
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+th{
+    font-size:20px;
+    font-style:bold;
+    border: 2px solid aqua;
+}
+
+td{
+    font-size:20px;
+    border: 2px solid aqua;
+}
+
+.MinjiIntro{
+    width: 360px;
+    height: auto;
+    vertical-align: top;
+    margin-left: 180px;
+    margin-right: 15px;
+    margin-top: -60px;
+    clip-path: circle(46% at 50% 50%);
+    transition: transform 0.3s ease;
+}
+
+.MinjiIntro:hover{
+   transform: scale(1.12);
+}
+
+.HanniIntro{
+    width: 325px;
+    height: auto;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-right: -130px;
+    margin-top: -50px;
+    clip-path: circle(46% at 50% 50%);
+    transition: transform 0.3s ease;
+}
+
+.HanniIntro:hover{
+    transform: scale(1.12);
+}
+
+.HaerinIntro{
+    width: 560px;
+    height: auto;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -230px; 
+    clip-path: circle(33.6% at 50% 50%);
+    transition: transform 0.3s ease; 
+}
+
+.HaerinIntro:hover{
+    transform: scale(1.12);
+}
+
+.DanielleIntro{
+    width: 330px;
+    height: auto;
+    vertical-align: top;
+    margin-left: 350px;
+    margin-right: 15px;
+    margin-top: -300px;
+    clip-path: circle(49% at 50% 50%);
+    transition: transform 0.3s ease;
+}
+
+.DanielleIntro:hover{
+    transform: scale(1.12);
+}
+
+.HyeinIntro{
+    width: 450px;
+    height: auto;
+    vertical-align: top;
+    margin-left: -10px;
+    margin-right: 15px;
+    margin-top: -345px;
+    clip-path: circle(38% at 50% 50%);
+    transition: transform 0.3s ease;
+}
+
+.HyeinIntro:hover{
+    transform: scale(1.12);
+}
+
+.Minji{
+    width: 450px;
+    height: 300px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.Hanni{
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.Haerin{
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.Danielle{
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.Hyein{
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.Haerinbox{
+    margin-top: 0px;
+}
+
+.Hyeinbox{
+    margin-top: -115px;
+}
+
+.Daniellebox{
+    margin-top: -40px;
+}
+
+.clickable:hover{
+    background-color: lightpink;
+}
+
+.clickable{
+    margin-left: 150px;
+    font-family: monospace;
+}
+
+.clickableminji:hover{
+    background-color: lightpink;
+}
+
+button {
+    background-color: pink;
+    color: black;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    outline: none;
+    font-style: italic;
+}
+
+p{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Link{
+    color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+iframe{
+    display: block;
+    margin: 0 auto;
+}
